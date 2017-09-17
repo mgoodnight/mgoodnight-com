@@ -1,31 +1,17 @@
-.banner, .downer {
+.banner {
     background: #ffffff;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
-.banner {
-    margin-top: 10px;
+.banner a:hover {
+    text-decoration: none;
 }
 
 .banner a:link {
     color: #434d53;
-}
-
-.downer a:link {
-    color: #434d53;
-}
-
-.banner a:hover {
-    color: #434d53;
-    text-decoration: none;
-}
-
-.downer a:hover {
-    text-decoration:none;
-}
-
-.banner-container {
-    width: 51%;
-    margin: 0px auto; 
 }
 
 .banner-image {
@@ -36,52 +22,39 @@
     background-position: -8px -2px;
     background-image: url("../images/bubbles.jpg");
     display: inline-block;
+    margin-right: 10px;
 }
 
 .banner-details {
-    margin-left: 10px;
-    display: inline-block;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.banner-container h1 {
+.banner-details ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.banner-details li {
+    display: inline;
+    list-style-type: none;
+}
+
+.list-item {
+    margin-right: 70px;
+}
+
+.last-list-item {
+    margin-right: 0px;
+}
+
+.name h1{
     font-size: 60px;
-}
-
-.banner-container h2 {
-    font-size: 28px;
-}
-
-.buttons-list {
-    list-style: none;
-}
-
-.buttons-header {
-    margin-top: 15px;
-    text-align:left;
-}
-
-.buttons-footer {
     text-align: center;
 }
-
-.buttons-header li {
-    padding: 0px 27px;
-}
-
-.buttons-footer li {
-    padding: 0px 10px;
-}
-
-.buttons-list li {
-    display: inline-block;
-}
-
-.buttons-list li a:hover {
+    
+.button-list a:hover {
     color: #ea6841;
 }
-
-.content {
-    width: 80%;
-    margin: 0px auto;
-}
-
