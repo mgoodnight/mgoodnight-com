@@ -1,16 +1,13 @@
 .banner {
     background: #ffffff;
     margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
 }
 
 .banner a:hover {
     text-decoration: none;
 }
 
-.banner a:link {
+.banner a:link, a:visited {
     color: #434d53;
 }
 
@@ -26,10 +23,7 @@
 }
 
 .banner-details {
-    display: flex;
     flex-flow: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .banner-details ul {
@@ -50,7 +44,7 @@
     margin-right: 0px;
 }
 
-.name h1{
+.name h1 {
     font-size: 60px;
     text-align: center;
 }
